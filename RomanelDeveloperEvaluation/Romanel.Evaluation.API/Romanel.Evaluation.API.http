@@ -1,0 +1,6 @@
+@Romanel.Evaluation.API_HostAddress = http://localhost:5190
+
+GET {{Romanel.Evaluation.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
