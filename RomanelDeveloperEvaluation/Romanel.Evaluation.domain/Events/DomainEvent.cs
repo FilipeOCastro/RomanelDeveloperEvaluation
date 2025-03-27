@@ -9,6 +9,6 @@ namespace Romanel.Evaluation.domain.Events
     public abstract class DomainEvent
     {
         public Guid EventId { get; } = Guid.NewGuid();
-        public DateTime Date { get; } = DateTime.Now;
+        public DateTime OccurredOn { get; } = DateTime.Now;
     }
 }

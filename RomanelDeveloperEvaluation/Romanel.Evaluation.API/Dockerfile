@@ -10,6 +10,9 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 COPY ["Romanel.Evaluation.API/Romanel.Evaluation.API.csproj", "Romanel.Evaluation.API/"]
+COPY ["Romanel.Evaluation.Application/Romanel.Evaluation.Application.csproj", "Romanel.Evaluation.Application/"]
+COPY ["Romanel.Evaluation.domain/Romanel.Evaluation.Domain.csproj", "Romanel.Evaluation.domain/"]
+COPY ["Romanel.Evaluation.Infrastructure/Romanel.Evaluation.Infrastructure.csproj", "Romanel.Evaluation.Infrastructure/"]
 RUN dotnet restore "./Romanel.Evaluation.API/Romanel.Evaluation.API.csproj"
 COPY . .
 WORKDIR "/src/Romanel.Evaluation.API"
