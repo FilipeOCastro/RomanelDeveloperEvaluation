@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Sources\\RomanelDeveloperEvaluation\\RomanelDeveloperEvaluation\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3C64CD65-52D9-43AB-89DF-562930322272}|Romanel.Evaluation.API\\Romanel.Evaluation.API.csproj|c:\\sources\\romaneldeveloperevaluation\\romaneldeveloperevaluation\\romanel.evaluation.api\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C64CD65-52D9-43AB-89DF-562930322272}|Romanel.Evaluation.API\\Romanel.Evaluation.API.csproj|solutionrelative:romanel.evaluation.api\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9DBEC9D2-5893-4B91-8E37-DEAE96CFC941}|Romanel.Evaluation.domain\\Romanel.Evaluation.domain.csproj|c:\\sources\\romaneldeveloperevaluation\\romaneldeveloperevaluation\\romanel.evaluation.domain\\entities\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DBEC9D2-5893-4B91-8E37-DEAE96CFC941}|Romanel.Evaluation.domain\\Romanel.Evaluation.domain.csproj|solutionrelative:romanel.evaluation.domain\\entities\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBEC9D2-5893-4B91-8E37-DEAE96CFC941}|Romanel.Evaluation.domain\\Romanel.Evaluation.domain.csproj|c:\\sources\\romaneldeveloperevaluation\\romaneldeveloperevaluation\\romanel.evaluation.domain\\interfaces\\iaggregateroot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DBEC9D2-5893-4B91-8E37-DEAE96CFC941}|Romanel.Evaluation.domain\\Romanel.Evaluation.domain.csproj|solutionrelative:romanel.evaluation.domain\\interfaces\\iaggregateroot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBEC9D2-5893-4B91-8E37-DEAE96CFC941}|Romanel.Evaluation.domain\\Romanel.Evaluation.domain.csproj|c:\\sources\\romaneldeveloperevaluation\\romaneldeveloperevaluation\\romanel.evaluation.domain\\events\\clientecriadoevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DBEC9D2-5893-4B91-8E37-DEAE96CFC941}|Romanel.Evaluation.domain\\Romanel.Evaluation.domain.csproj|solutionrelative:romanel.evaluation.domain\\events\\clientecriadoevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBEC9D2-5893-4B91-8E37-DEAE96CFC941}|Romanel.Evaluation.domain\\Romanel.Evaluation.domain.csproj|c:\\sources\\romaneldeveloperevaluation\\romaneldeveloperevaluation\\romanel.evaluation.domain\\events\\domainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DBEC9D2-5893-4B91-8E37-DEAE96CFC941}|Romanel.Evaluation.domain\\Romanel.Evaluation.domain.csproj|solutionrelative:romanel.evaluation.domain\\events\\domainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +31,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ClienteController.cs",
-              "DocumentMoniker": "C:\\Sources\\RomanelDeveloperEvaluation\\RomanelDeveloperEvaluation\\Romanel.Evaluation.API\\Controllers\\ClienteController.cs",
-              "RelativeDocumentMoniker": "Romanel.Evaluation.API\\Controllers\\ClienteController.cs",
-              "ToolTip": "C:\\Sources\\RomanelDeveloperEvaluation\\RomanelDeveloperEvaluation\\Romanel.Evaluation.API\\Controllers\\ClienteController.cs",
-              "RelativeToolTip": "Romanel.Evaluation.API\\Controllers\\ClienteController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAjAAAA",
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Sources\\RomanelDeveloperEvaluation\\RomanelDeveloperEvaluation\\Romanel.Evaluation.domain\\Entities\\Cliente.cs",
+              "RelativeDocumentMoniker": "Romanel.Evaluation.domain\\Entities\\Cliente.cs",
+              "ToolTip": "C:\\Sources\\RomanelDeveloperEvaluation\\RomanelDeveloperEvaluation\\Romanel.Evaluation.domain\\Entities\\Cliente.cs",
+              "RelativeToolTip": "Romanel.Evaluation.domain\\Entities\\Cliente.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAwC0AAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T13:39:34.567Z",
+              "WhenOpened": "2025-03-27T12:31:52.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IAggregateRoot.cs",
+              "DocumentMoniker": "C:\\Sources\\RomanelDeveloperEvaluation\\RomanelDeveloperEvaluation\\Romanel.Evaluation.domain\\Interfaces\\IAggregateRoot.cs",
+              "RelativeDocumentMoniker": "Romanel.Evaluation.domain\\Interfaces\\IAggregateRoot.cs",
+              "ToolTip": "C:\\Sources\\RomanelDeveloperEvaluation\\RomanelDeveloperEvaluation\\Romanel.Evaluation.domain\\Interfaces\\IAggregateRoot.cs",
+              "RelativeToolTip": "Romanel.Evaluation.domain\\Interfaces\\IAggregateRoot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T12:27:57.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClienteCriadoEvent.cs",
+              "DocumentMoniker": "C:\\Sources\\RomanelDeveloperEvaluation\\RomanelDeveloperEvaluation\\Romanel.Evaluation.domain\\Events\\ClienteCriadoEvent.cs",
+              "RelativeDocumentMoniker": "Romanel.Evaluation.domain\\Events\\ClienteCriadoEvent.cs",
+              "ToolTip": "C:\\Sources\\RomanelDeveloperEvaluation\\RomanelDeveloperEvaluation\\Romanel.Evaluation.domain\\Events\\ClienteCriadoEvent.cs",
+              "RelativeToolTip": "Romanel.Evaluation.domain\\Events\\ClienteCriadoEvent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T12:27:07.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DomainEvent.cs",
+              "DocumentMoniker": "C:\\Sources\\RomanelDeveloperEvaluation\\RomanelDeveloperEvaluation\\Romanel.Evaluation.domain\\Events\\DomainEvent.cs",
+              "RelativeDocumentMoniker": "Romanel.Evaluation.domain\\Events\\DomainEvent.cs",
+              "ToolTip": "C:\\Sources\\RomanelDeveloperEvaluation\\RomanelDeveloperEvaluation\\Romanel.Evaluation.domain\\Events\\DomainEvent.cs",
+              "RelativeToolTip": "Romanel.Evaluation.domain\\Events\\DomainEvent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T12:26:35.942Z",
               "EditorCaption": ""
             }
           ]

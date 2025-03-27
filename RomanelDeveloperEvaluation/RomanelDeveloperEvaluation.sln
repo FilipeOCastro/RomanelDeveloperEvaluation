@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Romanel.Evaluation.API", "Romanel.Evaluation.API\Romanel.Evaluation.API.csproj", "{3C64CD65-52D9-43AB-89DF-562930322272}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Romanel.Evaluation.API", "Romanel.Evaluation.API\Romanel.Evaluation.API.csproj", "{3C64CD65-52D9-43AB-89DF-562930322272}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Romanel.Evaluation.domain", "Romanel.Evaluation.domain\Romanel.Evaluation.domain.csproj", "{9DBEC9D2-5893-4B91-8E37-DEAE96CFC941}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{3C64CD65-52D9-43AB-89DF-562930322272}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C64CD65-52D9-43AB-89DF-562930322272}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C64CD65-52D9-43AB-89DF-562930322272}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DBEC9D2-5893-4B91-8E37-DEAE96CFC941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DBEC9D2-5893-4B91-8E37-DEAE96CFC941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DBEC9D2-5893-4B91-8E37-DEAE96CFC941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DBEC9D2-5893-4B91-8E37-DEAE96CFC941}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
