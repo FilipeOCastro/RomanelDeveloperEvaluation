@@ -4,7 +4,7 @@
     <ProjectVersion>2.1</ProjectVersion>
     <DockerTargetOS>Linux</DockerTargetOS>
     <DockerPublishLocally>False</DockerPublishLocally>
-    <ProjectGuid>6ab250e6-129d-48bb-9dfb-2e6206e99fae</ProjectGuid>
+    <ProjectGuid>4fee32f1-c185-40ec-9a41-e632d4d11cc6</ProjectGuid>
     <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
     <DockerServiceUrl>{Scheme}://localhost:{ServicePort}/swagger</DockerServiceUrl>
     <DockerServiceName>romanel.evaluation.api</DockerServiceName>

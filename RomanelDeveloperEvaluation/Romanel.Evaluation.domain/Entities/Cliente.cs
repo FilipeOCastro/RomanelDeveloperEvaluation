@@ -22,7 +22,7 @@ namespace Romanel.Evaluation.domain.Entities
         private readonly List<DomainEvent> _domainEvents = new();
         public IReadOnlyCollection<DomainEvent> DomainEvents => _domainEvents.AsReadOnly();
 
-        //private Cliente() { }
+        private Cliente() { }
 
         public Cliente(string nome, string cpf, DateTime dataNascimento, string telefone, string email, Endereco endereco)
         {

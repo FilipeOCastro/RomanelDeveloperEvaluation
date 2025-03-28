@@ -3,36 +3,20 @@
   "WorkspaceRootPath": "C:\\Sources\\RomanelDeveloperEvaluation\\RomanelDeveloperEvaluation\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3C64CD65-52D9-43AB-89DF-562930322272}|Romanel.Evaluation.API\\Romanel.Evaluation.API.csproj|c:\\sources\\romaneldeveloperevaluation\\romaneldeveloperevaluation\\romanel.evaluation.api\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C64CD65-52D9-43AB-89DF-562930322272}|Romanel.Evaluation.API\\Romanel.Evaluation.API.csproj|solutionrelative:romanel.evaluation.api\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3C64CD65-52D9-43AB-89DF-562930322272}|Romanel.Evaluation.API\\Romanel.Evaluation.API.csproj|c:\\sources\\romaneldeveloperevaluation\\romaneldeveloperevaluation\\romanel.evaluation.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{3C64CD65-52D9-43AB-89DF-562930322272}|Romanel.Evaluation.API\\Romanel.Evaluation.API.csproj|solutionrelative:romanel.evaluation.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C64CD65-52D9-43AB-89DF-562930322272}|Romanel.Evaluation.API\\Romanel.Evaluation.API.csproj|c:\\sources\\romaneldeveloperevaluation\\romaneldeveloperevaluation\\romanel.evaluation.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3C64CD65-52D9-43AB-89DF-562930322272}|Romanel.Evaluation.API\\Romanel.Evaluation.API.csproj|solutionrelative:romanel.evaluation.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C64CD65-52D9-43AB-89DF-562930322272}|Romanel.Evaluation.API\\Romanel.Evaluation.API.csproj|c:\\sources\\romaneldeveloperevaluation\\romaneldeveloperevaluation\\romanel.evaluation.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C64CD65-52D9-43AB-89DF-562930322272}|Romanel.Evaluation.API\\Romanel.Evaluation.API.csproj|solutionrelative:romanel.evaluation.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C64CD65-52D9-43AB-89DF-562930322272}|Romanel.Evaluation.API\\Romanel.Evaluation.API.csproj|c:\\sources\\romaneldeveloperevaluation\\romaneldeveloperevaluation\\romanel.evaluation.api\\romanel.evaluation.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{3C64CD65-52D9-43AB-89DF-562930322272}|Romanel.Evaluation.API\\Romanel.Evaluation.API.csproj|solutionrelative:romanel.evaluation.api\\romanel.evaluation.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AB250E6-129D-48BB-9DFB-2E6206E99FAE}|docker-compose.dcproj|c:\\sources\\romaneldeveloperevaluation\\romaneldeveloperevaluation\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{6AB250E6-129D-48BB-9DFB-2E6206E99FAE}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{4FEE32F1-C185-40EC-9A41-E632D4D11CC6}|docker-compose.dcproj|c:\\sources\\romaneldeveloperevaluation\\romaneldeveloperevaluation\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4FEE32F1-C185-40EC-9A41-E632D4D11CC6}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3C64CD65-52D9-43AB-89DF-562930322272}|Romanel.Evaluation.API\\Romanel.Evaluation.API.csproj|c:\\sources\\romaneldeveloperevaluation\\romaneldeveloperevaluation\\romanel.evaluation.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{3C64CD65-52D9-43AB-89DF-562930322272}|Romanel.Evaluation.API\\Romanel.Evaluation.API.csproj|solutionrelative:romanel.evaluation.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AB250E6-129D-48BB-9DFB-2E6206E99FAE}|docker-compose.dcproj|c:\\sources\\romaneldeveloperevaluation\\romaneldeveloperevaluation\\docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{6AB250E6-129D-48BB-9DFB-2E6206E99FAE}|docker-compose.dcproj|solutionrelative:docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{4FEE32F1-C185-40EC-9A41-E632D4D11CC6}|docker-compose.dcproj|c:\\sources\\romaneldeveloperevaluation\\romaneldeveloperevaluation\\docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4FEE32F1-C185-40EC-9A41-E632D4D11CC6}|docker-compose.dcproj|solutionrelative:docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,97 +31,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ClientesController.cs",
-              "DocumentMoniker": "C:\\Sources\\RomanelDeveloperEvaluation\\RomanelDeveloperEvaluation\\Romanel.Evaluation.API\\Controllers\\ClientesController.cs",
-              "RelativeDocumentMoniker": "Romanel.Evaluation.API\\Controllers\\ClientesController.cs",
-              "ToolTip": "C:\\Sources\\RomanelDeveloperEvaluation\\RomanelDeveloperEvaluation\\Romanel.Evaluation.API\\Controllers\\ClientesController.cs",
-              "RelativeToolTip": "Romanel.Evaluation.API\\Controllers\\ClientesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T18:17:47.344Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Sources\\RomanelDeveloperEvaluation\\RomanelDeveloperEvaluation\\Romanel.Evaluation.API\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "Romanel.Evaluation.API\\appsettings.Development.json",
-              "ToolTip": "C:\\Sources\\RomanelDeveloperEvaluation\\RomanelDeveloperEvaluation\\Romanel.Evaluation.API\\appsettings.Development.json",
-              "RelativeToolTip": "Romanel.Evaluation.API\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-27T18:16:13.144Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Sources\\RomanelDeveloperEvaluation\\RomanelDeveloperEvaluation\\Romanel.Evaluation.API\\appsettings.json",
               "RelativeDocumentMoniker": "Romanel.Evaluation.API\\appsettings.json",
               "ToolTip": "C:\\Sources\\RomanelDeveloperEvaluation\\RomanelDeveloperEvaluation\\Romanel.Evaluation.API\\appsettings.json",
               "RelativeToolTip": "Romanel.Evaluation.API\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAEAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-27T18:16:06.461Z",
+              "WhenOpened": "2025-03-28T14:55:37.425Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Sources\\RomanelDeveloperEvaluation\\RomanelDeveloperEvaluation\\Romanel.Evaluation.API\\Program.cs",
-              "RelativeDocumentMoniker": "Romanel.Evaluation.API\\Program.cs",
-              "ToolTip": "C:\\Sources\\RomanelDeveloperEvaluation\\RomanelDeveloperEvaluation\\Romanel.Evaluation.API\\Program.cs",
-              "RelativeToolTip": "Romanel.Evaluation.API\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T18:15:18.636Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Romanel.Evaluation.API",
-              "DocumentMoniker": "C:\\Sources\\RomanelDeveloperEvaluation\\RomanelDeveloperEvaluation\\Romanel.Evaluation.API\\Romanel.Evaluation.API.csproj",
-              "RelativeDocumentMoniker": "Romanel.Evaluation.API\\Romanel.Evaluation.API.csproj",
-              "ToolTip": "C:\\Sources\\RomanelDeveloperEvaluation\\RomanelDeveloperEvaluation\\Romanel.Evaluation.API\\Romanel.Evaluation.API.csproj",
-              "RelativeToolTip": "Romanel.Evaluation.API\\Romanel.Evaluation.API.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-27T18:08:28.639Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "docker-compose.yml",
               "DocumentMoniker": "C:\\Sources\\RomanelDeveloperEvaluation\\RomanelDeveloperEvaluation\\docker-compose.yml",
               "RelativeDocumentMoniker": "docker-compose.yml",
               "ToolTip": "C:\\Sources\\RomanelDeveloperEvaluation\\RomanelDeveloperEvaluation\\docker-compose.yml",
               "RelativeToolTip": "docker-compose.yml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAATAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2025-03-27T17:36:25.019Z",
+              "WhenOpened": "2025-03-28T14:36:01.51Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Sources\\RomanelDeveloperEvaluation\\RomanelDeveloperEvaluation\\Romanel.Evaluation.API\\Dockerfile",
-              "RelativeDocumentMoniker": "Romanel.Evaluation.API\\Dockerfile",
-              "ToolTip": "C:\\Sources\\RomanelDeveloperEvaluation\\RomanelDeveloperEvaluation\\Romanel.Evaluation.API\\Dockerfile",
-              "RelativeToolTip": "Romanel.Evaluation.API\\Dockerfile",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-03-27T17:35:24.327Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "docker-compose",
               "DocumentMoniker": "C:\\Sources\\RomanelDeveloperEvaluation\\RomanelDeveloperEvaluation\\docker-compose.dcproj",
               "RelativeDocumentMoniker": "docker-compose.dcproj",
@@ -145,7 +64,20 @@
               "RelativeToolTip": "docker-compose.dcproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-03-27T17:36:19.339Z",
+              "WhenOpened": "2025-03-28T14:35:51.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Sources\\RomanelDeveloperEvaluation\\RomanelDeveloperEvaluation\\Romanel.Evaluation.API\\Dockerfile",
+              "RelativeDocumentMoniker": "Romanel.Evaluation.API\\Dockerfile",
+              "ToolTip": "C:\\Sources\\RomanelDeveloperEvaluation\\RomanelDeveloperEvaluation\\Romanel.Evaluation.API\\Dockerfile",
+              "RelativeToolTip": "Romanel.Evaluation.API\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-28T14:35:50.332Z",
               "EditorCaption": ""
             }
           ]

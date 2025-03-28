@@ -7,11 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Romanel.Evaluation.API", "R
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Romanel.Evaluation.Domain", "Romanel.Evaluation.domain\Romanel.Evaluation.Domain.csproj", "{9DBEC9D2-5893-4B91-8E37-DEAE96CFC941}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Romanel.Evaluation.Application", "Romanel.Evaluation.Application\Romanel.Evaluation.Application.csproj", "{5AF2EDBC-7601-4C01-B5E2-87EF69251C97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Romanel.Evaluation.Application", "Romanel.Evaluation.Application\Romanel.Evaluation.Application.csproj", "{5AF2EDBC-7601-4C01-B5E2-87EF69251C97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Romanel.Evaluation.Infrastructure", "Romanel.Evaluation.Infrastructure\Romanel.Evaluation.Infrastructure.csproj", "{E1781C20-66F4-4F20-935A-ACA7B552CDA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Romanel.Evaluation.Infrastructure", "Romanel.Evaluation.Infrastructure\Romanel.Evaluation.Infrastructure.csproj", "{E1781C20-66F4-4F20-935A-ACA7B552CDA2}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{6AB250E6-129D-48BB-9DFB-2E6206E99FAE}"
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{4FEE32F1-C185-40EC-9A41-E632D4D11CC6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{E1781C20-66F4-4F20-935A-ACA7B552CDA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1781C20-66F4-4F20-935A-ACA7B552CDA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1781C20-66F4-4F20-935A-ACA7B552CDA2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6AB250E6-129D-48BB-9DFB-2E6206E99FAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6AB250E6-129D-48BB-9DFB-2E6206E99FAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6AB250E6-129D-48BB-9DFB-2E6206E99FAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6AB250E6-129D-48BB-9DFB-2E6206E99FAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FEE32F1-C185-40EC-9A41-E632D4D11CC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FEE32F1-C185-40EC-9A41-E632D4D11CC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FEE32F1-C185-40EC-9A41-E632D4D11CC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FEE32F1-C185-40EC-9A41-E632D4D11CC6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

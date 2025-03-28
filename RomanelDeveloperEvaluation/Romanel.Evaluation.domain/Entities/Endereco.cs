@@ -15,6 +15,8 @@ namespace Romanel.Evaluation.domain.Entities
         public string Cidade { get; private set; }
         public string Estado { get; private set; }
 
+        private Endereco() { }
+
         public Endereco(string cep, string logradouro, string numero, string bairro, string cidade, string estado)
         {
             CEP = cep;

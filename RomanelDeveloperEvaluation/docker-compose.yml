@@ -7,7 +7,8 @@ services:
       context: .
       dockerfile: Romanel.Evaluation.API/Dockerfile
     ports:
-      - "5000:8080"
+      - "5000:8080"      
+      - "57808:8081"      
     depends_on:
       - db
     environment:
