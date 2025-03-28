@@ -19,19 +19,19 @@ namespace Romanel.Evaluation.domain.Entities
 
         public Endereco(string cep, string logradouro, string numero, string bairro, string cidade, string estado)
         {
-            CEP = cep;
-            Logradouro = logradouro;
-            Numero = numero;
-            Bairro = bairro;
-            Cidade = cidade;
-            Estado = estado;
+            //CEP = cep;
+            //Logradouro = logradouro;
+            //Numero = numero;
+            //Bairro = bairro;
+            //Cidade = cidade;
+            //Estado = estado;
 
-            //CEP = ValidateCEP(cep);
-            //Logradouro = ValidateLogradouro(logradouro);
-            //Numero = ValidateNumero(numero);
-            //Bairro = ValidateBairro(bairro);
-            //Cidade = ValidateCidade(cidade);
-            //Estado = ValidateEstado(estado);
+            CEP = ValidateCEP(cep);
+            Logradouro = ValidateLogradouro(logradouro);
+            Numero = ValidateNumero(numero);
+            Bairro = ValidateBairro(bairro);
+            Cidade = ValidateCidade(cidade);
+            Estado = ValidateEstado(estado);
         }
 
         private string ValidateCEP(string cep)

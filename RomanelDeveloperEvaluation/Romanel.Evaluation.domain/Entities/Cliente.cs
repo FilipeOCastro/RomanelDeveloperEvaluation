@@ -26,23 +26,23 @@ namespace Romanel.Evaluation.domain.Entities
 
         public Cliente(string nome, string cpf, DateTime dataNascimento, string telefone, string email, Endereco endereco)
         {
-            Id = Guid.NewGuid();
-            Nome = nome;
-            CPF = cpf;
-            DataNascimento = dataNascimento;
-            Telefone = telefone;
-            Email = email;
-            Endereco = endereco;
+            //Id = Guid.NewGuid();
+            //Nome = nome;
+            //CPF = cpf;
+            //DataNascimento = dataNascimento;
+            //Telefone = telefone;
+            //Email = email;
+            //Endereco = endereco;
 
             AddDomainEvent(new ClienteCriadoEvent(Id, CPF, Email));
 
-            //Id = Guid.NewGuid();
-            //Nome = ValidateNome(nome);
-            //CPF = ValidateCPF(cpf);
-            //DataNascimento = ValidateDataNascimento(dataNascimento);
-            //Telefone = ValidateTelefone(telefone);
-            //Email = ValidateEmail(email);
-            //Endereco = endereco ?? throw new ArgumentNullException(nameof(endereco));
+            Id = Guid.NewGuid();
+            Nome = ValidateNome(nome);
+            CPF = ValidateCPF(cpf);
+            DataNascimento = ValidateDataNascimento(dataNascimento);
+            Telefone = ValidateTelefone(telefone);
+            Email = ValidateEmail(email);
+            Endereco = endereco ?? throw new ArgumentNullException(nameof(endereco));
         }
 
         // Métodos de validação (regras de negócio)

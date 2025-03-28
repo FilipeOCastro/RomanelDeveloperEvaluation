@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Romanel.Evaluation.Infrastr
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{4FEE32F1-C185-40EC-9A41-E632D4D11CC6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Romanel.Evaluation.Tests", "..\Romanel.Evaluation.Tests\Romanel.Evaluation.Tests.csproj", "{FA33E852-DEF5-42DF-91D0-3B7C4700B124}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{4FEE32F1-C185-40EC-9A41-E632D4D11CC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FEE32F1-C185-40EC-9A41-E632D4D11CC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FEE32F1-C185-40EC-9A41-E632D4D11CC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA33E852-DEF5-42DF-91D0-3B7C4700B124}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA33E852-DEF5-42DF-91D0-3B7C4700B124}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA33E852-DEF5-42DF-91D0-3B7C4700B124}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA33E852-DEF5-42DF-91D0-3B7C4700B124}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
