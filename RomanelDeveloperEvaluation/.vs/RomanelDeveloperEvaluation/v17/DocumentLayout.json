@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Sources\\RomanelDeveloperEvaluation\\RomanelDeveloperEvaluation\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBEC9D2-5893-4B91-8E37-DEAE96CFC941}|Romanel.Evaluation.domain\\Romanel.Evaluation.Domain.csproj|c:\\sources\\romaneldeveloperevaluation\\romaneldeveloperevaluation\\romanel.evaluation.domain\\entities\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DBEC9D2-5893-4B91-8E37-DEAE96CFC941}|Romanel.Evaluation.domain\\Romanel.Evaluation.Domain.csproj|solutionrelative:romanel.evaluation.domain\\entities\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Sources\\RomanelDeveloperEvaluation\\RomanelDeveloperEvaluation\\Romanel.Evaluation.domain\\Entities\\Cliente.cs",
+              "RelativeDocumentMoniker": "Romanel.Evaluation.domain\\Entities\\Cliente.cs",
+              "ToolTip": "C:\\Sources\\RomanelDeveloperEvaluation\\RomanelDeveloperEvaluation\\Romanel.Evaluation.domain\\Entities\\Cliente.cs",
+              "RelativeToolTip": "Romanel.Evaluation.domain\\Entities\\Cliente.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAqwFIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T18:03:36.534Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

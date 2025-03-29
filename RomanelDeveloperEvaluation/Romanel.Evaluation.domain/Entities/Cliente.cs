@@ -19,7 +19,7 @@ namespace Romanel.Evaluation.domain.Entities
             CPF = ValidateCPF(cpf, tipoCliente);
             RazaoSocial = ValidateRazaoSocial(razaoSocial, tipoCliente);
             CNPJ = ValidateCNPJ(cnpj, tipoCliente);
-            DataNascimento = ValidateDataNascimento(dataNascimento);
+            DataNascimento = ValidateDataNascimento(dataNascimento, tipoCliente);
             Telefone = ValidateTelefone(telefone);
             Email = ValidateEmail(email);
             Endereco = endereco ?? throw new ArgumentNullException(nameof(endereco));
@@ -72,12 +72,16 @@ namespace Romanel.Evaluation.domain.Entities
             return cnpj;
         }
 
-        private DateTime ValidateDataNascimento(DateTime dataNascimento)
+        private DateTime ValidateDataNascimento(DateTime dataNascimento, TipoCliente tipoCliente)
         {
-            if (dataNascimento >= DateTime.Today)
-                throw new ArgumentException("Data de nascimento deve ser anterior a hoje.");
+            if (tipoCliente == TipoCliente.PessoaFisica)
+            {
+                DateTime dataMinima = dataNascimento.AddYears(18);
+                if (DateTime.Today < dataMinima)
+                    throw new ArgumentException("É necessário ter 18 anos ou mais.");
+            }
             return dataNascimento;
-        }
+        }      
 
         private string ValidateTelefone(string telefone)
         {
