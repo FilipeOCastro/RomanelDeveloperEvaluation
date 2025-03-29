@@ -1,4 +1,5 @@
-﻿using FluentAssertions;
+﻿using ClienteApp.Domain.Enums;
+using FluentAssertions;
 using Microsoft.EntityFrameworkCore;
 using Romanel.Evaluation.domain.Entities;
 using Romanel.Evaluation.Infrastructure.Data;
@@ -19,7 +20,7 @@ namespace Romanel.Evaluation.Tests.Infrastructure
             var repository = new ClienteRepository(context);
 
             var cliente = new Cliente(
-                "João Silva", "12345678901", new DateTime(1990, 1, 1),
+                "João Silva", "12345678901","","", TipoCliente.PessoaFisica , new DateTime(1990, 1, 1),
                 "11987654321", "joao@example.com",
                 new Endereco("12345678", "Rua Teste", "123", "Centro", "São Paulo", "SP"));
 

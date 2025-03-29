@@ -1,7 +1,6 @@
-﻿using FluentAssertions;
+﻿using ClienteApp.Domain.Enums;
+using FluentAssertions;
 using Romanel.Evaluation.domain.Entities;
-//using FluentAssertions;
-using Xunit;
 
 namespace Romanel.Evaluation.Tests.Domain
 {
@@ -19,7 +18,7 @@ namespace Romanel.Evaluation.Tests.Domain
             var endereco = new Endereco("12345678", "Rua Teste", "123", "Centro", "São Paulo", "SP");
 
             // Act
-            var cliente = new Cliente(nome, cpf, dataNascimento, telefone, email, endereco);
+            var cliente = new Cliente(nome, cpf, "", "", TipoCliente.PessoaFisica, dataNascimento, telefone, email, endereco);
 
             // Assert
             cliente.Id.Should().NotBeEmpty();
@@ -41,7 +40,7 @@ namespace Romanel.Evaluation.Tests.Domain
 
             // Act & Assert
             var exception = Assert.Throws<ArgumentException>(() =>
-                new Cliente(nome, cpf, dataNascimento, telefone, email, endereco));
+                new Cliente(nome, cpf, "", "", TipoCliente.PessoaFisica, dataNascimento, telefone, email, endereco));
             exception.Message.Should().Be(mensagemEsperada);
         }
     }

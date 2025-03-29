@@ -1,11 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Romanel.Evaluation.domain.Entities;
 using Romanel.Evaluation.Infrastructure.EventStore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Romanel.Evaluation.Infrastructure.Data
 {
@@ -35,7 +30,7 @@ namespace Romanel.Evaluation.Infrastructure.Data
                     e.Property(x => x.Cidade).IsRequired().HasMaxLength(100);
                     e.Property(x => x.Estado).IsRequired().HasMaxLength(2);
                 });
-                entity.Ignore(c => c.DomainEvents); // Ignorar eventos de domínio no EF
+                entity.Ignore(c => c.DomainEvents); 
             });
 
             modelBuilder.Entity<StoredEvent>(entity =>

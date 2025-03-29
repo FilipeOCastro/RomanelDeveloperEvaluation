@@ -1,11 +1,7 @@
-﻿using MediatR;
+﻿using ClienteApp.Domain.Enums;
+using MediatR;
 using Romanel.Evaluation.domain.Entities;
 using Romanel.Evaluation.domain.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Romanel.Evaluation.Application.Commands
 {
@@ -23,15 +19,14 @@ namespace Romanel.Evaluation.Application.Commands
         public async Task<Guid> Handle(CriarClienteCommand request, CancellationToken cancellationToken)
         {
             var endereco = new Endereco(request.CEP, request.Logradouro, request.Numero, request.Bairro, request.Cidade, request.Estado);
-            var cliente = new Cliente(request.Nome, request.CPF, request.DataNascimento, request.Telefone, request.Email, endereco);
+            var cliente = new Cliente(request.Nome, request.CPF, request.RazaoSocial, request.CNPJ, request.TipoCliente, request.DataNascimento, request.Telefone, request.Email, endereco);/// TODO: criar classe para reduzir nume de argu
 
-            // Verificar unicidade de CPF e Email
-            if (await _clienteRepository.ExistsByCPFAsync(request.CPF))
-                throw new ApplicationException("CPF já cadastrado.");
-            if (await _clienteRepository.ExistsByEmailAsync(request.Email))
-                throw new ApplicationException("E-mail já cadastrado.");
+            if (request.TipoCliente == TipoCliente.PessoaFisica && (string.IsNullOrEmpty(request.Nome) || string.IsNullOrEmpty(request.CPF)))
+                throw new ArgumentException("Nome e CPF são obrigatórios para pessoa física.");
+            if (request.TipoCliente == TipoCliente.PessoaJuridica && (string.IsNullOrEmpty(request.RazaoSocial) || string.IsNullOrEmpty(request.CNPJ)))
+                throw new ArgumentException("Razão Social e CNPJ são obrigatórios para pessoa jurídica.");
 
-            // Persistir o cliente e os eventos
+            // Persiste o cliente e os eventos
             await _clienteRepository.AddAsync(cliente);
             await _eventStore.SaveEventsAsync(cliente.DomainEvents);
 

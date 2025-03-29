@@ -1,12 +1,7 @@
 ﻿using Romanel.Evaluation.domain.Events;
 using Romanel.Evaluation.domain.Interfaces;
 using Romanel.Evaluation.Infrastructure.Data;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Text.Json;
-using System.Threading.Tasks;
 
 namespace Romanel.Evaluation.Infrastructure.EventStore
 {

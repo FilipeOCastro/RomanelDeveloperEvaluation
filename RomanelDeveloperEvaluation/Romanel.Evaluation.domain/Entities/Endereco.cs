@@ -8,24 +8,10 @@ namespace Romanel.Evaluation.domain.Entities
 {
     public class Endereco
     {
-        public string CEP { get; private set; }
-        public string Logradouro { get; private set; }
-        public string Numero { get; private set; }
-        public string Bairro { get; private set; }
-        public string Cidade { get; private set; }
-        public string Estado { get; private set; }
-
         private Endereco() { }
 
         public Endereco(string cep, string logradouro, string numero, string bairro, string cidade, string estado)
         {
-            //CEP = cep;
-            //Logradouro = logradouro;
-            //Numero = numero;
-            //Bairro = bairro;
-            //Cidade = cidade;
-            //Estado = estado;
-
             CEP = ValidateCEP(cep);
             Logradouro = ValidateLogradouro(logradouro);
             Numero = ValidateNumero(numero);
@@ -33,6 +19,16 @@ namespace Romanel.Evaluation.domain.Entities
             Cidade = ValidateCidade(cidade);
             Estado = ValidateEstado(estado);
         }
+
+        public string CEP { get; private set; }
+        public string Logradouro { get; private set; }
+        public string Numero { get; private set; }
+        public string Bairro { get; private set; }
+        public string Cidade { get; private set; }
+        public string Estado { get; private set; }
+                
+
+        #region validacoes
 
         private string ValidateCEP(string cep)
         {
@@ -75,5 +71,7 @@ namespace Romanel.Evaluation.domain.Entities
                 throw new ArgumentException("Estado deve conter exatamente 2 caracteres.");
             return estado.ToUpper();
         }
+
+        #endregion
     }
 }
