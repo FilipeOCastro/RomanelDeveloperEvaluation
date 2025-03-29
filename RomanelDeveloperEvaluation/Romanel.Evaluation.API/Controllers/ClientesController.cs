@@ -20,7 +20,7 @@ namespace Romanel.Evaluation.API.Controllers
         public async Task<IActionResult> CriarCliente([FromBody] CriarClienteCommand command)
         {
             var clienteId = await _mediator.Send(command);
-            return CreatedAtAction(nameof(ObterCliente), new { id = clienteId }, null);
+            return CreatedAtAction(nameof(ObterCliente), new { id = clienteId }, clienteId);
         }
 
         [HttpGet("{id}")]
